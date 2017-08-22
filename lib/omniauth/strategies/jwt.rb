@@ -10,6 +10,7 @@ module OmniAuth
 
       args [:secret]
 
+      option :name, :jwt
       option :secret, nil
       option :algorithm, 'HS256'
       option :uid_claim, 'id'
